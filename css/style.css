@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #fff;
+  color: #111;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  padding: 18px 5%;
+  border-bottom: 1px solid #111;
+}
+
+.brand {
+  color: #111;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  white-space: nowrap;
+  margin-right: 24px;
+}
+
+.nav-links {
+  display: inline-block;
+}
+
+.nav-links a {
+  display: inline-block;
+  margin: 3px;
+  padding: 9px 12px;
+  border: 1px solid #111;
+  color: #111;
+  text-decoration: none;
+}
+
+.container {
+  width: 1100px;
+  margin: 48px auto;
+}
+
+.page-header {
+  margin-bottom: 36px;
+}
+
+h1 {
+  margin: 0 0 14px;
+  font-size: 36px;
+}
+
+.page-header p {
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.resource-list {
+  border-top: 1px solid #111;
+}
+
+.resource-link {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 18px 0;
+  border-bottom: 1px solid #111;
+  color: #111;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.cards {
+  display: block;
+}
+
+.card {
+  padding: 18px;
+  border: 1px solid #111;
+  margin-bottom: 16px;
+}
+
+.card h2 {
+  margin: 0 0 12px;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.card p {
+  margin: 8px 0 0;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.card img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 12px;
+  object-fit: cover;
+}
+
+.show-more {
+  display: block;
+  margin: 28px auto;
+  padding: 12px 24px;
+  border: 1px solid #111;
+  background-color: #fff;
+  color: #111;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.show-more[hidden] {
+  display: none;
+}
+
+.message {
+  color: #111;
+}
