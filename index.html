@@ -3,10 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="refresh" content="0; url=./pages/posts.html" />
     <title>Posts | JSONPlaceholder</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script defer src="./js/posts.js"></script>
   </head>
   <body>
-    <p><a href="./pages/posts.html">Open Posts</a></p>
+    <nav class="navbar">
+      <a class="brand" href="./index.html">JSONPlaceholder</a>
+      <div class="nav-links">
+        <a class="active" href="./index.html">Posts</a>
+        <a href="./pages/comments.html">Comments</a>
+        <a href="./pages/albums.html">Albums</a>
+        <a href="./pages/photos.html">Photos</a>
+        <a href="./pages/todos.html">Todos</a>
+        <a href="./pages/users.html">Users</a>
+      </div>
+    </nav>
+    <main class="container">
+      <header class="page-header">
+        <h1>Posts</h1>
+      </header>
+
+      <section class="cards" id="cards"></section>
+      <button class="show-more" id="show-more" type="button" hidden>
+        Show more
+      </button>
+    </main>
   </body>
 </html>
